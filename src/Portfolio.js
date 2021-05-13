@@ -4,19 +4,9 @@ const Portfolio = () => {
 
     const projectLinks = [
         {
-            image: "/images/script-shopping-list-manager-4.png",
-            text: "Task 4", 
-            url: "https://codepen.io/DipoDre/pen/QWdGaLv?editors=1011"
-        },
-        {
             image: "/images/multi-page-website-1.png",
             text: "Task 1", 
             url: "https://dare47-week1-project.netlify.app/"
-        },
-        {
-            image: "/images/function-shopping-list-manager-5.png",
-            text: "Task 5", 
-            url: "https://codepen.io/DipoDre/pen/MWpazXb?editors=1011"
         },
         {
             image: "/images/responsive-multipage-blog-2a.png",
@@ -32,6 +22,16 @@ const Portfolio = () => {
             image: "/images/multipage-portfolio-web-3.png",
             text: "Task 3", 
             url: "https://dare47-week3-project.netlify.app/"
+        },
+        {
+            image: "/images/script-shopping-list-manager-4.png",
+            text: "Task 4", 
+            url: "https://codepen.io/DipoDre/pen/QWdGaLv?editors=1011"
+        },
+        {
+            image: "/images/function-shopping-list-manager-5.png",
+            text: "Task 5", 
+            url: "https://codepen.io/DipoDre/pen/MWpazXb?editors=1011"
         },
         {
             image: "/images/todo-list-web-7.png",

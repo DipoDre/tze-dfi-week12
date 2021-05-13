@@ -1,4 +1,3 @@
-import './App.css';
 import Menu from './Menu';
 import Home from './Home';
 import About from './About';
