@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,169 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.bg-orange-a {
+  background-color: #f97300;
 }
+
+.bg-orange-b {
+  background-color: #f67500;
+}
+
+.text-orange-a {
+  color: #f97300;
+}
+
+.text-grey-a {
+  color: #95888a;
+}
+
+.bg-img {
+  background-image: url('./station2.jpg');
+}
+
+.small-txt {
+  font-size: 13px;
+}
+
+.mg-btm-0 {
+  margin-bottom: 0;
+}
+
+.mg-top-0 {
+  margin-top: 0;
+}
+
+.orange-marker {
+  border-left: 5px solid #f97300;
+}
+
+textarea {
+  resize: none;
+}
+
+.circle-image {
+  border-radius: 50%;
+  height: inherit;
+}
+
+.about-details {
+  height: fit-content;
+  margin-top: 50px;
+}
+
+.img-div {
+  height: 300px;
+}
+
+.touch-section {
+  height: 100%;
+}
+
+.contact-btn {
+  outline: none;
+}
+
+.contact-section {
+  height: 50%;
+}
+
+.index-section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.index-section p{
+  font-size: 13px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+.index-allowance {
+  height: 25%;
+}
+
+.page-header {
+  margin-top: 55px;
+}
+
+
+@media screen and (min-width: 576px) {
+  .index-section h3{
+      font-size: 30px;
+  }
+
+  .index-section p{
+      font-size: 15px;
+  }
+
+  .index-section {
+      padding-left: 60px;
+      padding-right: 60px;
+  }
+
+  div.row.mobile.mt-5, div.row.mobile.my-5 {
+    margin-top: 3.5rem!important;
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+  .index-section h3{
+      font-size: 40px;
+  }
+
+  .index-section p{
+      font-size: 16px;
+  }
+
+  .index-section {
+      padding-left: 80px;
+      padding-right: 80px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 992px) {
+
+  .touch-section {
+      height: fit-content;
+  }
+
+  .contact-section h2 {
+      text-align: center;
+      margin-top: auto;
+      margin-bottom: auto;
+  }
+
+  .touch-section .get-in-touch {
+      height: 100% !;
+      display: flex;
+      justify-content: center;
+      align-items: center;    
+  }
+
+  .index-section h3{
+      font-size: 45px;
+  }
+
+  .index-section p{
+      font-size: 20px;
+  }
+
+  .index-section {
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+
+}
+
+
+
+
